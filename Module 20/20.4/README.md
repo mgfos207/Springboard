@@ -1,0 +1,3 @@
+# Airbnb Booking Monthly Availability
+
+This project delves into Austin's airbnb listings using airdna to predict a listings monthly availablity. This project will detail the eda and model metrics performed to analyze and select the appropriate model for a this usecase. Further enhancements can be made to this model to improve upon model accuracy, and details can be found at the 'Reccomendation' section of the 'modeling' Jupyter notebook.
