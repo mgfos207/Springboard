@@ -7,6 +7,8 @@ name = "pypi"
 wordcloud = "*"
 fuzzywuzzy = "*"
 python-levenshtein = "*"
+nltk = "*"
+keras = "*"
 
 [dev-packages]
 
