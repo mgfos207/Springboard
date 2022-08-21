@@ -1,3 +1,15 @@
 */*.jpg
 */*.png
 */*.jpeg
+
+Module 26/assets/data/airbnb_images/
+
+Module 26/assets/data/orig/Austin Data/
+
+Module 26/assets/model/
+
+Module 28/Pipfile
+
+*.lock
+
+Pipfile
