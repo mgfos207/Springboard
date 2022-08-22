@@ -1,0 +1,5 @@
+Model Name,Precision,Recall,F1,Accuracy,Class,# of Features
+Decision Tree Classifier,0.95,0.95,0.95,0.92,0,70
+Decision Tree Classifier,0.77,0.76,0.76,0.92,1,70
+Random Forest Classifier,0.95,0.98,0.96,0.93,0,13
+Random Forest Classifier,0.89,0.72,0.80,0.93,1,13
