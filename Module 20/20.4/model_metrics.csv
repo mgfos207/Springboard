@@ -1,8 +1,0 @@
-r2_score_train,r2_score_test,mae_score_train,mae_score_test,num_features,model_name,notes
-0.0,-9.53773203222763e-05,0.27529740963019456,0.27242263977779957,58,DummyRegression,Baseline model using a dummy regression model utilizing the mean strategy
-0.36231993215824887,0.3660562969349077,0.20114720563653182,0.1975826801524931,58,Basic Linear Regression,This model is a generic linear regression model with no hyperparam tuning
-0.32560610929919676,0.3513446953576048,0.20936829148495997,0.20114436606742792,58,Pipeline 10 Linear Regression 10 Features,This model is placed in a pipeline with a SelectKBest param defaulting to 10 features using `f_regression`
-0.3345256041536909,0.3537481879758091,0.20705606895515832,0.19977115414486807,15,Pipeline 15 Linear Regression 15 Features,This model is placed in a pipeline with a SelectKBest param now utilizing 10 features using `f_regression`
-0.3623115366301727,0.3660930185022858,0.20115884832005707,0.19759777154413508,58,Grid Search Linear Regression,This model is placed in a pipeline using grid search to optimize the KBest hyperparam to define what would be the best features as well as utilizing cross validation with 5 folds
-0.35942270510499985,0.3682370101985941,0.20196782992345036,0.19708975657116046,52,Lasso Regression k_best Best Features,Lasso regression with 52 features based on the GridSearchCV best params along with an alpha of 0.0022222222222222222
-0.36231153662878623,0.3660931021967352,0.20115884875123546,0.19759774796143642,52,Ridge Regression 52 Best Features,Ridge regression with 52 features based on the GridSearchCV best params along with an alpha of 0.01
